@@ -1,0 +1,246 @@
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navItem {
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #828282;
+  margin-top: 10px;
+}
+.iAm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.name {
+  width: 120px;
+  height: 120px;
+  font-family: sans-serif;
+  font-size: 47.3392px;
+  line-height: 59px;
+  font-weight: bold;
+}
+.job {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+.language {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.foto {
+  width: 100%;
+  margin-top: 30px;
+}
+.aboutMe {
+  margin-top: 100px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.header {
+  margin-top: 120px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.textBlock {
+  max-width: 485px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.text {
+  text-align: center;
+  font-family: sans-serif;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: 700px;
+  align-items: center;
+}
+.headerSkills {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.textSkills {
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+.skillsList {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.skillsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stars {
+  display: flex;
+}
+.stars1 {
+  display: flex;
+  margin-top: 18px;
+}
+.figma {
+  width: 70px;
+  height: 90px;
+}
+.portfolio {
+  position: absolute;
+  background-color: #f6f6f6;
+  width: 100%;
+  left: 0;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerPortfolio {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.woman {
+  background-color: white;
+  max-width: 100%;
+  margin-top: 50px;
+}
+.onlineFashion {
+  color: black;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.reebok {
+  margin-top: 50px;
+  max-width: 100%;
+}
+.cam {
+  margin-top: 50px;
+  max-width: 100%;
+}
+.contacts {
+  margin-top: 2200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.headerContacts {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.welcome {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.send {
+  background-color: black;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: sans-serif;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 70px;
+}
+.in {
+  display: flex;
+  flex-direction: column;
+}
+.inst {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.be {
+  border: 3px solid;
+  border-radius: 3px;
+}
+.logo1 {
+  display: flex;
+}
+.n {
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.inn {
+  display: flex;
+  margin-left: 11px;
+  margin-top: -35px;
+}
+.b {
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.e {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+  margin-left: 1px;
+}
+.ball {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.bee {
+  margin-left: 40px;
+}
+.like {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: grey;
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .contacts {
+margin-top: 1800px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contacts {
+margin-top: 1400px;
+  }
+}
